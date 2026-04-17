@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATV V8.0.0</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    backdrop-filter: blur(10px);
+}
+
+.btn:hover {
+    background: rgba(255,255,255,0.25);
+    transform: scale(1.03);
+}
+
+.guide {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 14px;
+    color: #ddd;
+    background: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>A TV V8.0.0</h1>
+
+    <button class="btn" onclick="openLink('https://iptvtenda.github.io/BTV/')">آی پی تی وی(اتحادیه)</button>
+    <button class="btn" onclick="openLink('https://iptvtenda.github.io/BTVM/')">آی پی تی وی موزاییک(اتحادیه)</button>
+    <button class="btn" onclick="openLink('https://iptvtenda.github.io/GTV/')">آی پی تی وی گلوبال گاردن(جهانی)</button>
+    <button class="btn" onclick="openLink('https://iptvtenda.github.io/STV/')">آی پی تی گلوبال استریم(جهانی)</button>
+    <button class="btn" onclick="openLink('https://btv.live/')">(اتحادیه)BTV.LIVE</button>
+    <button class="btn" onclick="openLink('https://iotv.live/')">(اتحادیه)IOTV.LIVE</button>
+    <button class="btn" onclick="openLink('https://drive.epress.ir/s/sRTtaaEyFerFsD4')">دانلود اپلیکیشن</button>
+
+    <div class="guide">
+        از منوی تنظیمات کروم گزینه زیر را بزنید تا سایت به صفحه اصلی شما اضافه شود
+
+    </div>
+
+    <div class="guide">
+Add to home screen
+
+    </div>
+</div>
+
+<script>
+function openLink(url) {
+    window.open(url, '_blank');
+}
+</script>
+
+</body>
+</html>
